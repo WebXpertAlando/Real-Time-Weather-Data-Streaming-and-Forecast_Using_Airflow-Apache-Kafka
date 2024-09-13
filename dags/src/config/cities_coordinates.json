@@ -1,0 +1,66 @@
+[
+  {
+    "City": "Nairobi",
+    "Lat": -1.286389,
+    "Long": 36.817223,
+    "Country": "Kenya",
+    "ISO2": "KE",
+    "State": "Nairobi County"
+  },
+  {
+    "City": "Kisumu",
+    "Lat": -0.091702,
+    "Long": 34.768028,
+    "Country": "Kenya",
+    "ISO2": "KE",
+    "State": "Kisumu County"
+  },
+  {
+    "City": "Nakuru",
+    "Lat": -0.2833,
+    "Long": 36.0667,
+    "Country": "Kenya",
+    "ISO2": "KE",
+    "State": "Nakuru County"
+  },
+  {
+    "City": "Busia",
+    "Lat": 0.4607,
+    "Long": 34.1115,
+    "Country": "Kenya",
+    "ISO2": "KE",
+    "State": "Busia County"
+  },
+  {
+    "City": "Eldoret",
+    "Lat": 0.5204,
+    "Long": 35.2699,
+    "Country": "Kenya",
+    "ISO2": "KE",
+    "State": "Uasin Gishu County"
+  },
+  {
+    "City": "Mombasa",
+    "Lat": -4.0435,
+    "Long": 39.6682,
+    "Country": "Kenya",
+    "ISO2": "KE",
+    "State": "Mombasa County"
+  },
+  {
+    "City": "Isiolo",
+    "Lat": 0.3546,
+    "Long": 37.5829,
+    "Country": "Kenya",
+    "ISO2": "KE",
+    "State": "Isiolo County"
+  },
+  {
+    "City": "Meru",
+    "Lat": 0.0462,
+    "Long": 37.6559,
+    "Country": "Kenya",
+    "ISO2": "KE",
+    "State": "Meru County"
+  }
+]
