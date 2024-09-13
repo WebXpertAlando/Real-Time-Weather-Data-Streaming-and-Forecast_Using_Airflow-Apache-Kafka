@@ -13,12 +13,11 @@ Project Contents
 # System Overview:
  ## 1. Data Ingestion from APIs:
  ● WeatherAPIIntegration: Set up integrations with weather APIs to pull real-time
- weather data and forecasts. Examples include OpenWeatherMap, Weatherstack,
- or ClimaCell.
- ○ Current Weather Data: Get current weather conditions such as
+ weather data and forecasts. 
+ ####Examples include OpenWeatherMap, Weatherstack, or ClimaCell.
+ - Current Weather Data: Get current weather conditions such as
  temperature, humidity, wind speed, and weather descriptions.
- ○ Forecast Data: Retrieve weather forecasts for various locations, including
- hourly and daily forecasts.
+- Forecast Data: Retrieve weather forecasts for various locations, including hourly and daily forecasts.
 ## 2. Change Data Capture (CDC) Setup:
  ● DatabaseSetup: Store historical weather data and forecasts in a relational
  database (e.g., PostgreSQL, MySQL).
@@ -27,9 +26,7 @@ Project Contents
  ● KafkaIntegration: Debezium will stream these changes to Kafka topics (e.g.,
  weather-updates, forecast-updates).
  ## 3. Real-Time Data Streaming with Apache Kafka:
- ● KafkaTopics: Create Kafka topics for different types of data:
- ○ weather-updates: For real-time updates of current weather data.
- ○ forecast-updates: For real-time updates of forecast data.
+ ● KafkaTopics: Create Kafka topics for different types of data: weather-updates: For real-time updates of current weather data. forecast-updates: For real-time updates of forecast data.
  ● KafkaProducers: Implement Kafka producers to push data from the weather
  APIs into Kafka topics.
  ● KafkaConsumers: Set up Kafka consumers to process and analyze data in
@@ -37,9 +34,9 @@ Project Contents
  ## 4. Stream Processing:
  ● ApacheKafkaStreamsor Apache Flink: Use Kafka Streams or Flink to process and
  transform the real-time data streams.
- ○ DataEnrichment: Combine real-time weather updates with historical data
+ - DataEnrichment: Combine real-time weather updates with historical data
  for more context.
- ○ Aggregation: Aggregate data to compute metrics such as average
+ - Aggregation: Aggregate data to compute metrics such as average
  temperature, rainfall, or wind speed for specific regions or time periods.
  ○ AnomalyDetection: Implement rules or machine learning models to detect
  unusual weather patterns or forecast anomalies.
