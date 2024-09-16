@@ -35,7 +35,7 @@ Project Contents
  ● KafkaConsumers: Set up Kafka consumers to process and analyze data in
  real-time.
  ## 4. Stream Processing:
- 1. ApacheKafkaStreamsor Apache Flink: 
+ 1. Apache Kafka, Streamsor or Apache Flink: 
  Use Kafka Streams or Flink to process and transform the real-time data streams.
  2. DataEnrichment: Combine real-time weather updates with historical data
  for more context.
