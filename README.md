@@ -32,13 +32,13 @@ Project Contents
  ● KafkaConsumers: Set up Kafka consumers to process and analyze data in
  real-time.
  ## 4. Stream Processing:
- ● ApacheKafkaStreamsor Apache Flink: Use Kafka Streams or Flink to process and
- transform the real-time data streams.
- - DataEnrichment: Combine real-time weather updates with historical data
+ 1. ApacheKafkaStreamsor Apache Flink: 
+ Use Kafka Streams or Flink to process and transform the real-time data streams.
+ 2. DataEnrichment: Combine real-time weather updates with historical data
  for more context.
- - Aggregation: Aggregate data to compute metrics such as average
+ 3. Aggregation: Aggregate data to compute metrics such as average
  temperature, rainfall, or wind speed for specific regions or time periods.
- ○ AnomalyDetection: Implement rules or machine learning models to detect
+ 4. AnomalyDetection: Implement rules or machine learning models to detect
  unusual weather patterns or forecast anomalies.
  ## 5. Data Storage and Warehousing:
  ● DataLake: Store raw and processed data in a data lake (e.g., Amazon S3 with
