@@ -29,10 +29,10 @@ Project Contents
  ● KafkaIntegration: Debezium will stream these changes to Kafka topics (e.g.,
  weather-updates, forecast-updates).
  ## 3. Real-Time Data Streaming with Apache Kafka:
- ● KafkaTopics: Create Kafka topics for different types of data: weather-updates: For real-time updates of current weather data. forecast-updates: For real-time updates of forecast data.
- ● KafkaProducers: Implement Kafka producers to push data from the weather
+ 1. KafkaTopics: Create Kafka topics for different types of data: weather-updates: For real-time updates of current weather data. forecast-updates: For real-time updates of forecast data.
+ 2. KafkaProducers: Implement Kafka producers to push data from the weather
  APIs into Kafka topics.
- ● KafkaConsumers: Set up Kafka consumers to process and analyze data in
+ 3. KafkaConsumers: Set up Kafka consumers to process and analyze data in
  real-time.
  ## 4. Stream Processing:
  1. Apache Kafka, Streamsor or Apache Flink: 
