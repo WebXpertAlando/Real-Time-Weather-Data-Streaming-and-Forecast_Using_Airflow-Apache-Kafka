@@ -12,9 +12,12 @@ Project Contents
  
 # System Overview:
  ## 1. Data Ingestion from APIs:
- ● WeatherAPIIntegration: Set up integrations with weather APIs to pull real-time
+ - WeatherAPIIntegration: Set up integrations with weather APIs to pull real-time
  weather data and forecasts. 
- ####Examples include OpenWeatherMap, Weatherstack, or ClimaCell.
+ ##Examples include:
+ 1. OpenWeatherMap
+ 2. Weatherstack
+ 3. ClimaCell.
  - Current Weather Data: Get current weather conditions such as
  temperature, humidity, wind speed, and weather descriptions.
 - Forecast Data: Retrieve weather forecasts for various locations, including hourly and daily forecasts.
