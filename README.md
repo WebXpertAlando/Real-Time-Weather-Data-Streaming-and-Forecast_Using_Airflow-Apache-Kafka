@@ -48,9 +48,9 @@ Project Contents
 ## 6. Visualization and Dashboarding:
  ● Real-Time Dashboards: Create dashboards to visualize key weather metrics and
  forecasts in real-time.
- ○ WeatherDashboard: Display current weather conditions, alerts, and
+ -  WeatherDashboard: Display current weather conditions, alerts, and
  historical weather data.
- ○ Forecast Dashboard: Show forecast trends, upcoming weather conditions,
+ - Forecast Dashboard: Show forecast trends, upcoming weather conditions,
  and alert thresholds.
  ● Alerting: Set up alerts based on specific conditions (e.g., severe weather
  warnings, temperature extremes) using tools like Grafana or Kibana.
