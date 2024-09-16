@@ -41,18 +41,18 @@ Project Contents
  4. AnomalyDetection: Implement rules or machine learning models to detect
  unusual weather patterns or forecast anomalies.
  ## 5. Data Storage and Warehousing:
- ● DataLake: Store raw and processed data in a data lake (e.g., Amazon S3 with
+ a) DataLake: Store raw and processed data in a data lake (e.g., Amazon S3 with
  Apache Hudi or Delta Lake) for long-term storage and analysis.
- ● DataWarehouse: Load aggregated and transformed data into a data warehouse
+ b) DataWarehouse: Load aggregated and transformed data into a data warehouse
  (e.g., Amazon Redshift, Snowflake) for analytical querying and reporting.
 ## 6. Visualization and Dashboarding:
- ● Real-Time Dashboards: Create dashboards to visualize key weather metrics and
+ 1. Real-Time Dashboards: Create dashboards to visualize key weather metrics and
  forecasts in real-time.
- -  WeatherDashboard: Display current weather conditions, alerts, and
+ 2. WeatherDashboard: Display current weather conditions, alerts, and
  historical weather data.
- - Forecast Dashboard: Show forecast trends, upcoming weather conditions,
+ 3. Forecast Dashboard: Show forecast trends, upcoming weather conditions,
  and alert thresholds.
- ● Alerting: Set up alerts based on specific conditions (e.g., severe weather
+ 4. Alerting: Set up alerts based on specific conditions (e.g., severe weather
  warnings, temperature extremes) using tools like Grafana or Kibana.
 
 Deploy Your Project Locally
