@@ -52,10 +52,10 @@ Project Contents
  weather-updates, forecast-updates).
  
  ## 3. Real-Time Data Streaming with Apache Kafka:
- 1. KafkaTopics: Create Kafka topics for different types of data: weather-updates: For real-time updates of current weather data. forecast-updates: For real-time updates of forecast data.
- 2. KafkaProducers: Implement Kafka producers to push data from the weather
+ 1. Kafka Topics: Create Kafka topics for different types of data: weather-updates: For real-time updates of current weather data. forecast-updates: For real-time updates of forecast data.
+ 2. Kafka Producers: Implement Kafka producers to push data from the weather
  APIs into Kafka topics.
- 3. KafkaConsumers: Set up Kafka consumers to process and analyze data in
+ 3. Kafka Consumers: Set up Kafka consumers to process and analyze data in
  real-time.
  ## 4. Stream Processing:
  1. Apache Kafka, Streamsor or Apache Flink: 
