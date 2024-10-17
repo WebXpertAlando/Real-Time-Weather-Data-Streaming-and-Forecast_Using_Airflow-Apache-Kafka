@@ -21,7 +21,7 @@ Project Contents
    - Temperature
    - Rainfall Patterns
    - Humidity and Wind Conditions
-- Using these insighs, we aimed to provide accurate, region-specific weather forecasts that can aid in decisob making in weather-sensitive sectors like agriculture, tourism, and event management.
+- Using these insights, I aimed to provide accurate, region-specific weather forecasts that can aid in decisob making in weather-sensitive sectors like agriculture, tourism, and event management.
 
 - The project was also to exlore predictive modeling to forecast future weather conditions.
 
