@@ -24,10 +24,13 @@ Project Contents
 ## 2. Change Data Capture (CDC) Setup:
  ● DatabaseSetup: Store historical weather data and forecasts in a relational
  database (e.g., PostgreSQL, MySQL).
+ 
  ● CDCTool(e.g., Debezium): Use Debezium to capture changes in the database,
  such as updates to weather records or forecasts.
+ 
  ● KafkaIntegration: Debezium will stream these changes to Kafka topics (e.g.,
  weather-updates, forecast-updates).
+ 
  ## 3. Real-Time Data Streaming with Apache Kafka:
  1. KafkaTopics: Create Kafka topics for different types of data: weather-updates: For real-time updates of current weather data. forecast-updates: For real-time updates of forecast data.
  2. KafkaProducers: Implement Kafka producers to push data from the weather
