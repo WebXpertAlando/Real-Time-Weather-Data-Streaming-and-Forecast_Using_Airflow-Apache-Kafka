@@ -9,6 +9,26 @@ Project Contents
  forecasts from various sources, processes this data in real-time, and makes it available
  for analytics and visualization. Implement Change Data Capture (CDC) to handle
  updates efficiently and use Apache Kafka for real-time data streaming
+
+ # Project Title Weather Data Analysis and Forecasting for Different Regions in Kenya
+
+ ## Problem Statement
+ In Kenya, Weather plays a crirical role in many sectors, particularly agriculure, tourism, and outdoor activities, Farmers, businesses, and event planners need accurate weather information to make informed decisions. However, weather patterns can vary significantly across different regions, and current forecasting systems may not always provide localized insights/
+
+ ## Objectives
+ - The objective of this project was to collect real-time weather data from WeatherAPI and OpenWeatherMap for different regions accross Kenya. This data Was stored in a database (Relational or non-relational) and was analyzed using python to uncover insights into:
+
+   - Temperature
+   - Rainfall Patterns
+   - Humidity and Wind Conditions
+- Using these insighs, we aimed to provide accurate, region-specific weather forecasts that can aid in decisob making in weather-sensitive sectors like agriculture, tourism, and event management.
+
+- The project was also to exlore predictive modeling to forecast future weather conditions.
+
+  ### Expected Outcomes
+  - Temperature trends and rainfall patterns for different regions in Kenya.
+  - Visualization dashboard to commnicate weather insights
+  - Forecasting Models for Weather-sensitive sectors.
  
 # System Overview:
  ## 1. Data Ingestion from APIs:
